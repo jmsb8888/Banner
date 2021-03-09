@@ -13,11 +13,20 @@ public abstract class Stroke {
     protected char[][] area;
     protected char symbol;
 
+    /**
+     * constructor
+     * @param area matris a llenar
+     * @param symbol caracter con el cual se va a llenar
+     */
     public Stroke(char[][] area, char symbol) {
         this.area = area;
         this.symbol = symbol;
     }
-            
-    
+
+    /**
+     * metodo abstracto de super clase que generara un trazo
+     * @param pos posicion a llenar
+     * @return
+     */
     public abstract Stroke generate(int pos);
 }
