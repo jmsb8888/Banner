@@ -6,7 +6,7 @@
 package banner;
 
 /**
- *
+ *esta clase determina las propiedas de los diferentes trazos
  * @author uptc
  */
 public abstract class Stroke {
@@ -25,7 +25,7 @@ public abstract class Stroke {
 
     /**
      * metodo abstracto de super clase que generara un trazo
-     * @param pos posicion de las columnas a llenar
+     * @param pos posicion de filas o culmnas a llenar
      * @return
      */
     public abstract Stroke generate(int pos);

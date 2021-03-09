@@ -6,7 +6,7 @@
 package banner;
 
 /**
- *
+ *crea trazos horizontales 
  * @author uptc
  */
 public class HorizontalStroke extends Stroke{
@@ -15,6 +15,11 @@ public class HorizontalStroke extends Stroke{
         super(area, symbol);
     }
 
+    /**
+     * llena el  las pociciones de la matriz inidcadas con el simbolo escogido
+     * @param pos posicion de las filas a llenar
+     * @return
+     */
     @Override
     public HorizontalStroke generate(int pos) {
         for (int i = 0; i < area[pos].length; i++) {

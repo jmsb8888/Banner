@@ -5,10 +5,7 @@
  */
 package TestBanner;
 
-import banner.LetterA;
-import banner.LetterH;
-import banner.LetterT;
-import banner.Size;
+import banner.*;
 
 /**
  *
@@ -23,15 +20,34 @@ public class TestBanner {
             System.out.println("");
         }
     }
-    //Uribe Paraco
+
     public static void main(String[] args) {
         TestBanner tb = new TestBanner();
-        tb.showMatriz(new LetterA('A', new Size(19, 19),'*').generate());
+        tb.showMatriz(new LetterA('A', new Size(9, 9), '*').generate());
         System.out.println("");
-        tb.showMatriz(new LetterH('H', new Size(19, 19),'*').generate());
+        tb.showMatriz(new LetterH('H', new Size(9, 9), '*').generate());
         System.out.println("");
-        tb.showMatriz(new LetterT('T', new Size(19, 19),'*').generate());
-
+        tb.showMatriz(new LetterT('T', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterE('E', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterB('B', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterC('C', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterD('D', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterF('F', new Size(9, 9),'*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterG('G', new Size(9, 9),'*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterI('I', new Size(9, 9),'*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterJ('J', new Size(9, 9),'*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterL('L', new Size(9, 9),'*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterO('O', new Size(9, 9),'*').generate());
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
         
     }

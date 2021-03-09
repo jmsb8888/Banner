@@ -6,22 +6,23 @@
 package banner;
 
 /**
- * crea la letra A en una matriz
+ * crea la letra F en una matriz
  * @author uptc
  */
-public class LetterA extends MyCharacter {
+public class LetterF extends MyCharacter {
 
-    public LetterA(char value, Size size,char symbol) {
+    public LetterF(char value, Size size, char symbol) {
         super(value, size,symbol);
     }
+
     /**
-     * llama a los metodos que crean el trazo horizontal y vertical en dos ocaciones e indica las posiciones en las cuales estos deben hacer el llenado de la matris
-     * @return la matriz llena formando la letra A
+     * llama la creacion de trazo horizontal en 2 ocasiones y el vertical en una ademas, da las ubicaciones de llenado
+     * @returnla matriz con la letra F
      */
     @Override
     public char[][] generate() {
         new HorizontalStroke(area,symbol).generate(0).generate(area.length/2);
-        new VerticalStroke(area,symbol).generate(0).generate(area[0].length - 1);
+        new VerticalStroke(area,symbol).generate(0);
         return area;
     }
     

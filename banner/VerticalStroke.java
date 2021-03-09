@@ -20,7 +20,7 @@ public class VerticalStroke extends Stroke{
     }
 
     /**
-     *llena el trazo indicado segun la matr
+     *llena el trazo indicado segun la posicion que se le indique
      * @param pos posicion de las columnas a  llenar
      * @return
      */

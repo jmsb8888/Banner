@@ -6,7 +6,7 @@
 package banner;
 
 /**
- *
+ *crea la letra H en una matriz
  * @author uptc
  */
 public class LetterH extends MyCharacter {

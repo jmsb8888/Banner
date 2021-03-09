@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package banner;
+
+import com.sun.org.apache.xalan.internal.xsltc.trax.XSLTCSource;
+
+/**
+ * crea la letra J en una matriz
+ * @author uptc
+ */
+public class LetterJ extends MyCharacter {
+
+    public LetterJ(char value, Size size, char symbol) {
+        super(value, size,symbol);
+    }
+
+    /**
+     * llama la creacion de trazo horizontal en 2 ocasiones y el vertical en una, luego invoca un arreglo de espacio, y da las ubicaciones de llenado
+     * @returnla matriz con la letra J
+     */
+    @Override
+    public char[][] generate() {
+        new HorizontalStroke(area,symbol).generate(0).generate(area.length-1);
+        new VerticalStroke(area,symbol).generate(area[0].length/2);
+        new EmptyPoints(area,' ').generate3(area.length-1, area[0].length/2+1, area[0].length-1);
+        return area;
+    }
+    
+    
+}
