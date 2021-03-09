@@ -23,7 +23,7 @@ public class TestBanner {
             System.out.println("");
         }
     }
-    
+    //Uribe Paraco
     public static void main(String[] args) {
         TestBanner tb = new TestBanner();
         tb.showMatriz(new LetterA('A', new Size(19, 19),'*').generate());
