@@ -7,9 +7,9 @@ package TestBanner;
 
 import banner.*;
 
-/**
+/**muestra el baner 
  *
- * @author grupo 3
+ * @author grupo 3 
  */
 public class TestBanner {
     public void showMatriz(char[][] matriz) {
