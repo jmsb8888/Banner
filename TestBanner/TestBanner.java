@@ -9,7 +9,7 @@ import banner.*;
 
 /**
  *
- * @author uptc
+ * @author grupo 3
  */
 public class TestBanner {
     public void showMatriz(char[][] matriz) {
