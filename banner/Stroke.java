@@ -25,7 +25,7 @@ public abstract class Stroke {
 
     /**
      * metodo abstracto de super clase que generara un trazo
-     * @param pos posicion a llenar
+     * @param pos posicion de las columnas a llenar
      * @return
      */
     public abstract Stroke generate(int pos);

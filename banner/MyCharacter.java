@@ -15,6 +15,12 @@ public abstract class MyCharacter {
     protected char symbol;
     protected char[][] area;
 
+    /**
+     * crea un constructor, ademas dentro de el crea una matriz tipo char llena de espacios;
+     * @param value letra a crear
+     * @param size  tamaño
+     * @param symbol letra a llenar
+     */
     public MyCharacter(char value, Size size, char symbol) {
         this.value = value;
         this.size = size;

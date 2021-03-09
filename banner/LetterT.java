@@ -14,7 +14,10 @@ public class LetterT extends MyCharacter {
     public LetterT(char value, Size size,char symbol) {
         super(value, size,symbol);
     }
-
+    /**
+     * llama a los metodos que crean el trazo horizontal y vertical e indica las posiciones en las cuales estos deben hacer el llenado de la matris
+     * @return la matriz llena formando la letra T
+     */
     @Override
     public char[][] generate() {
         new HorizontalStroke(area,symbol).generate(0);

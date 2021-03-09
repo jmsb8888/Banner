@@ -6,15 +6,24 @@
 package banner;
 
 /**
- *
+ *crea un trazo vertical
  * @author uptc
  */
 public class VerticalStroke extends Stroke{
-
+    /**
+     * constructor heredado de la clase Stroke
+     * @param area matriz a llenar
+     * @param symbol caracter con el cual se va allenar la matriz
+     */
     public VerticalStroke(char[][] area, char symbol) {
         super(area, symbol);
     }
 
+    /**
+     *llena el trazo indicado segun la matr
+     * @param pos posicion de las columnas a  llenar
+     * @return
+     */
     @Override
     public VerticalStroke generate(int pos) {
         for (int i = 0; i < area.length; i++) {
