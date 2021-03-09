@@ -17,7 +17,7 @@ public class Banner {
     }
   
     public char[][] generate(Size size, char symbo){
-      // to do ..
+      // to do g..
       return null; 
     }
    
