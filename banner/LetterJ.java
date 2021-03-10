@@ -5,8 +5,6 @@
  */
 package banner;
 
-import com.sun.org.apache.xalan.internal.xsltc.trax.XSLTCSource;
-
 /**
  * crea la letra J en una matriz
  * @author uptc
