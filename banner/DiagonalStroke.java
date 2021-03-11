@@ -27,4 +27,5 @@ public class DiagonalStroke extends Stroke{
 		}
 		return this;
 	}
+
 }
