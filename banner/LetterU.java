@@ -10,6 +10,9 @@ package banner;
 public class LetterU extends MyCharacter{
 
 	/**
+	 * @param value 
+	 * @param size 
+	 * @param symbol 
 	 * 
 	 */
 	public LetterU(char value, Size size,char symbol) {
