@@ -49,7 +49,7 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterO('O', new Size(9, 9),'*').generate());
         System.out.println("");
-        tb.showMatriz(new LetterP('P', new Size(9, 9), '*').generate());
+        tb.showMatriz(new LetterU('U', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterQ('Q', new Size(9, 9),'*').generate());
         System.out.println("");
