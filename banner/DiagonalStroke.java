@@ -2,6 +2,7 @@
  * 
  */
 package banner;
+import banner.Size;
 
 /**crea trazos diagonales
  * @author Usuario
@@ -19,13 +20,22 @@ public class DiagonalStroke extends Stroke{
 	}
 	
 	public DiagonalStroke generate(int pos) {
-		for (int i = pos; i < area[pos].length; i++) {
-			area[i][0] = symbol;
-		}
-		for (int j = pos; j < area.length; j++) {
-			area[0][j] = symbol;
+		for (int i = pos; i < area.length; i++) {
+			for (int j = pos; j <area[0].length; j++) {
+				if(i==j)
+				area[i][j] = symbol;
+			}
+			
 		}
 		return this;
 	}
+	public DiagonalStroke generate(int pos1, int pos2) {
+		for (int i = pos1, j=pos2;  i < area.length; i++, j++) {
+			area[i][j] = symbol;
+		}
+		
+		return this;
+	}
+
 
 }

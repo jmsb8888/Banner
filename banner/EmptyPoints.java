@@ -27,4 +27,14 @@ public class EmptyPoints extends Stroke{
         }
         return this;
     }
+    public EmptyPoints generate5(int pos){
+        for (int i = pos; i < area.length; i++) {
+            for (int j = pos; j <area[0].length; j++) {
+                if(i==j)
+                    area[i][j] = symbol;
+            }
+
+        }
+        return this;
+    }
 }

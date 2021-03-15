@@ -13,7 +13,7 @@ public class VerticalStroke extends Stroke{
     /**
      * constructor heredado de la clase Stroke
      * @param area matriz a llenar
-     * @param symbol caracter con el cual se va allenar la matriz
+     * @param symbol caracter con el cual se va a llenar la matriz
      */
     public VerticalStroke(char[][] area, char symbol) {
         super(area, symbol);

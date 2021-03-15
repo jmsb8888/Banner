@@ -79,6 +79,20 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new Number9('9', new Size(9, 9), '*').generate());
         System.out.println("");
+        tb.showMatriz(new LetterX('X', new Size(9, 9), '*').generate());
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        tb.showMatriz(new LetterM('M', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterK('K', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterN('N', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterÑ('Ñ', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterY('Y', new Size(9, 9), '*').generate());
+        System.out.println("");
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
         
     }
