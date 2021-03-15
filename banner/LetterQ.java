@@ -19,6 +19,10 @@ public class LetterQ extends MyCharacter{
 		super(value, size,symbol);
 	}
 
+	/**
+	 * @return la matriz llena formando la letra Q
+	 */
+	@Override
 	public char[][] generate() {
         new VerticalStroke(area,symbol).generate(0).generate(area[0].length-1);
         new HorizontalStroke(area,' ').generate(area.length-1).generate(area.length-2);

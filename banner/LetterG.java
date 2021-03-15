@@ -17,7 +17,7 @@ public class LetterG extends MyCharacter {
 
     /**
      * llama la creacion de trazo horizontal en 3 ocasiones y el vertical en dos, ademas, llena las pociciones determinadas en espacio y da las ubicaciones de llenado
-     * @returnla matriz con la letra G
+     * @return la matriz con la letra G
      */
     @Override
     public char[][] generate() {

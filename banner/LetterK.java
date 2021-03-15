@@ -1,7 +1,7 @@
 package banner;
 
-/**
- * @author Usuario
+/**Crea la letra K en una matriz
+ * @author grupo 3
  *
  */
 public class LetterK extends MyCharacter {
@@ -11,7 +11,7 @@ public class LetterK extends MyCharacter {
 	}
 	
 	/**
-	 *llama la creacion de trazos diagonales desde la mitad a los extremos, junto con un trazo vertical 
+	 *llama la creacion de trazos diagonales desde la mitad a los extremos superior e inferior, junto con un trazo vertical 
 	 *@return la matriz con la letra K
 	 */
 	@Override

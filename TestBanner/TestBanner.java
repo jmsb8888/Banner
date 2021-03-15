@@ -51,7 +51,7 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterN('N', new Size(9, 9), '*').generate());
         System.out.println("");
-        tb.showMatriz(new LetterNmasUno('Ã‘', new Size(9, 9), '*').generate());
+        tb.showMatriz(new LetterNmasUno('Ñ', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterO('O', new Size(9, 9),'*').generate());
         System.out.println("");

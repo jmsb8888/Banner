@@ -7,7 +7,7 @@ package banner;
 
 /**
  * crea la letra L en una matriz
- * @author uptc
+ * @author grupo 3
  */
 public class LetterL extends MyCharacter {
 
@@ -17,7 +17,7 @@ public class LetterL extends MyCharacter {
 
     /**
      * llama la creacion de trazo horizontal en 1 ocasion y el vertical en una,ademas,  da las ubicaciones de llenado
-     * @returnla matriz con la letra L
+     * @return la matriz con la letra L
      */
     @Override
     public char[][] generate() {

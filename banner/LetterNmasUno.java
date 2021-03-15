@@ -1,11 +1,23 @@
 package banner;
 
+/**
+ * crea la letra Ñ en una matriz
+ * @author grupo 3
+ *
+ */
 public class LetterNmasUno extends MyCharacter {
 
 	public LetterNmasUno(char value, Size size, char symbol) {
 		super(value, size,symbol);
 	}
 	
+	/**
+	 * llama dos metodos que trazan lineas verticales en los extremos
+	 * a su vez llama un metodo para trazar una linea diagonal entre las dos verticales anteriores
+	 * tambien llama un metodo que traza una linea horizontal encima de todos los trazos anteriores
+	 * @return la matriz llena formando la letra NmasUno(Ñ)
+	 */
+	@Override
 	public char[][] generate() {
 		new DiagonalStroke(area,symbol).generate(0);
 		new VerticalStroke(area,symbol).generate(0).generate(area[0].length-1);

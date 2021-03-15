@@ -17,7 +17,7 @@ public class LetterB extends MyCharacter {
 
     /**
      * llama la creacion de trazo horizontal en 3 ocasiones, el vertical en dos y el punto placo en 3 y da las ubicaciones de llenado
-     * @returnla matriz con la letra B
+     * @return la matriz con la letra B
      */
     @Override
     public char[][] generate() {

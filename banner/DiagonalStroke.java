@@ -2,7 +2,6 @@
  * 
  */
 package banner;
-import banner.Size;
 
 /**crea trazos diagonales
  * @author grupo 3

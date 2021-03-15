@@ -17,7 +17,7 @@ public class LetterJ extends MyCharacter {
 
     /**
      * llama la creacion de trazo horizontal en 2 ocasiones y el vertical en una, luego invoca un arreglo de espacio, y da las ubicaciones de llenado
-     * @returnla matriz con la letra J
+     * @return la matriz con la letra J
      */
     @Override
     public char[][] generate() {

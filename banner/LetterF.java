@@ -17,7 +17,7 @@ public class LetterF extends MyCharacter {
 
     /**
      * llama la creacion de trazo horizontal en 2 ocasiones y el vertical en una ademas, da las ubicaciones de llenado
-     * @returnla matriz con la letra F
+     * @return la matriz con la letra F
      */
     @Override
     public char[][] generate() {
