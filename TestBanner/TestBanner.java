@@ -57,8 +57,8 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterP('P', new Size(9, 9),'*').generate());
         System.out.println("");
-//        tb.showMatriz(new LetterQ('Q', new Size(9, 9),'*').generate());
-//        System.out.println("");
+        tb.showMatriz(new LetterQ('Q', new Size(9, 9),'*').generate());
+        System.out.println("");
         tb.showMatriz(new LetterR('R', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterS('S', new Size(9, 9), '*').generate());
@@ -74,6 +74,8 @@ public class TestBanner {
         tb.showMatriz(new LetterX('X', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterY('Y', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterZ('Z', new Size(9, 9), '*').generate());
         System.out.println("");
         System.out.println("Numbers");
         System.out.println("");

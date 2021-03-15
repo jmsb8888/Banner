@@ -32,6 +32,7 @@ public abstract class MyCharacter {
             }
         } 
     }
+    
    
     public abstract char[][] generate();
 }

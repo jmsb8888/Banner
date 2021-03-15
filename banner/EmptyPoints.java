@@ -11,6 +11,10 @@ public class EmptyPoints extends Stroke{
                 area[pos][area.length-1] = symbol;
             return this;
         }
+    public EmptyPoints generate1(int pos) {
+        area[pos][0] = symbol;
+        return this;
+    }
         public EmptyPoints generate2(int pos, int pos2){
             area[pos][pos2]=symbol;
             return this;
