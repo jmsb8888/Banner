@@ -1,11 +1,19 @@
 package banner;
 
+/**Borra puntos para hacer trazos medios
+ * @author grupo 3
+ *
+ */
 public class EmptyPoints extends Stroke{
+        /**
+         * constructor heredado de la clase stroke
+         * @param area
+         * @param symbol
+         */
         public EmptyPoints(char[][] area, char symbol) {
             super(area, symbol);
         }
-
-
+        
         @Override
         public EmptyPoints generate(int pos) {
                 area[pos][area.length-1] = symbol;

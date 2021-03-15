@@ -5,7 +5,7 @@ package banner;
 import banner.Size;
 
 /**crea trazos diagonales
- * @author Usuario
+ * @author grupo 3
  *
  */
 public class DiagonalStroke extends Stroke{

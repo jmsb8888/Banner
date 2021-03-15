@@ -7,10 +7,14 @@ package banner;
 
 /**
  *crea trazos horizontales 
- * @author uptc
+ * @author grupo 3
  */
 public class HorizontalStroke extends Stroke{
 
+    /**constructor heredado de la clase stroke
+     * @param area
+     * @param symbol
+     */
     public HorizontalStroke(char[][] area, char symbol) {
         super(area, symbol);
     }

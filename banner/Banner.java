@@ -7,7 +7,7 @@ package banner;
 
 /**
  *
- * @author uptc
+ * @author grupo 3
  */
 public class Banner {
   private String message;
@@ -22,7 +22,7 @@ public class Banner {
 
   /**
    * administra la creacion de nuevas letras
-   * @param size tamaÃ±o de la matriz
+   * @param size tamaño de la matriz
    * @param symbol caracter con el cual se va a llenar
    * @return
    */

@@ -7,7 +7,7 @@ package banner;
 
 /**
  * crea la letra A en una matriz
- * @author uptc
+ * @author grupo 3
  */
 public class LetterA extends MyCharacter {
 

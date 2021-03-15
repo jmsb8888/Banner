@@ -7,7 +7,7 @@ package banner;
 
 /**
  *crea un trazo vertical
- * @author uptc
+ * @author grupo 3
  */
 public class VerticalStroke extends Stroke{
     /**
