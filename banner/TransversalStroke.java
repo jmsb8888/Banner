@@ -24,8 +24,8 @@ public class TransversalStroke extends Stroke{
 		}
 		return this;
 	}
-	public TransversalStroke generate(int pos1, int pos2){
-		for (int i = pos1, j=pos2;  i>=0; i--, j++) {
+	public TransversalStroke generate(int pos1, int pos2, int pos3){
+		for (int i = pos1, j=pos2;  i>=pos3; i--, j++) {
 			area[i][j] = symbol;
 		}
 		return this;
