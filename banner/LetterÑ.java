@@ -1,8 +1,8 @@
 package banner;
 
-public class Letter√ë extends MyCharacter {
+public class Letter— extends MyCharacter {
 
-	public Letter√ë(char value, Size size, char symbol) {
+	public Letter—(char value, Size size, char symbol) {
 		super(value, size,symbol);
 	}
 	

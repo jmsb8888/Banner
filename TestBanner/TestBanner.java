@@ -57,6 +57,10 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterT('T', new Size(9, 9), '*').generate());
         System.out.println("");
+        tb.showMatriz(new LetterU('U', new Size(9, 9), '*').generate());
+        System.out.println("");
+        tb.showMatriz(new LetterV('V', new Size(9, 9), '*').generate());
+        System.out.println("");
         System.out.println("Numbers");
         System.out.println("");
         tb.showMatriz(new Number0('0', new Size(9, 9), '*').generate());
@@ -81,19 +85,16 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterX('X', new Size(9, 9), '*').generate());
         System.out.println("");
-        System.out.println("");
-        System.out.println("");
         tb.showMatriz(new LetterM('M', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterK('K', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterN('N', new Size(9, 9), '*').generate());
         System.out.println("");
-        tb.showMatriz(new Letter√ë('√ë', new Size(9, 9), '*').generate());
+        tb.showMatriz(new Letter—('—', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterY('Y', new Size(9, 9), '*').generate());
         System.out.println("");
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
-        
     }
 }
