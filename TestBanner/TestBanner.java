@@ -95,6 +95,8 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterY('Y', new Size(9, 9), '*').generate());
         System.out.println("");
+        tb.showMatriz(new LetterV('V', new Size(9, 9), '*').generate());
+        System.out.println("");
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
     }
 }
