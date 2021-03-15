@@ -1,8 +1,8 @@
 package banner;
 
-public class Letter— extends MyCharacter {
+public class LetterNmasUno extends MyCharacter {
 
-	public Letter—(char value, Size size, char symbol) {
+	public LetterNmasUno(char value, Size size, char symbol) {
 		super(value, size,symbol);
 	}
 	
