@@ -12,7 +12,7 @@ public class LetterV extends MyCharacter {
 	
 	/**
 	 * 
-	 * 
+	 * @return la matriz llena formando la letra V
 	 */
 	@Override
 	public char[][] generate() {
