@@ -20,6 +20,17 @@ public class TestBanner {
             System.out.println("");
         }
     }
+    public void showMatrizz(Matrix[] matrix) {
+        for (int i = 0; i < matrix.length ; i++) {
+           char[][] aux = matrix[i].getCharacterI();
+        for (int k = 0; k < matrix[i].getCharacterI().length; k++) {
+            for (int j = 0; j < matrix[i].getCharacterI()[i].length; j++) {
+                System.out.print(aux[k][j]);
+            }
+            System.out.println("");
+        } System.out.println("");
+    }
+        }
 
     public static void main(String[] args) {
         TestBanner tb = new TestBanner();
@@ -51,7 +62,7 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new LetterN('N', new Size(9, 9), '*').generate());
         System.out.println("");
-        tb.showMatriz(new LetterNmasUno('Ñ', new Size(9, 9), '*').generate());
+        tb.showMatriz(new LetterNmasUno('ï¿½', new Size(9, 9), '*').generate());
         System.out.println("");
         tb.showMatriz(new LetterO('O', new Size(9, 9),'*').generate());
         System.out.println("");
@@ -100,6 +111,7 @@ public class TestBanner {
         tb.showMatriz(new Number9('9', new Size(9, 9), '*').generate());
         System.out.println("");
 
+        tb.showMatrizz(new Banner("AB").matrix());
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
     }
 }

@@ -14,6 +14,7 @@ public abstract class MyCharacter {
     protected Size size;
     protected char symbol;
     protected char[][] area;
+    private char [][] letter;
 
     /**
      * crea un constructor, ademas dentro de el crea una matriz tipo char llena de espacios;
@@ -32,7 +33,13 @@ public abstract class MyCharacter {
             }
         } 
     }
-    
-   
+
     public abstract char[][] generate();
+public MyCharacter(char[][]letter){
+    this.letter=letter;
+}
+
+    public char[][] getLetter() {
+        return letter;
+    }
 }
