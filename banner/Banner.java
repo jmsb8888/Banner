@@ -152,7 +152,7 @@ public class Banner {
 				matrix[i] = new Matrix(new Number9('9', new Size(9, 9), '*').generate());
 				break;
 			case '0':
-				matrix[i] = new Matrix(new LetterH('H', new Size(9, 9), '*').generate());
+				matrix[i] = new Matrix(new LetterH('0', new Size(9, 9), '*').generate());
 			}
 		}
 		return matrix;
