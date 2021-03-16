@@ -1,11 +1,20 @@
 package banner;
 
+/**
+ * @author grupo 3
+ *
+ */
 public class LetterV extends MyCharacter {
 
 	public LetterV(char value, Size size, char symbol) {
 		super(value, size,symbol);
 	}
 	
+	/**
+	 * 
+	 * 
+	 */
+	@Override
 	public char[][] generate() {
 		new DiagonalStroke(area,symbol).generate(area.length/2,0);
 		new TransversalStroke(area,symbol).generate(area.length-2, area.length/2+1, area.length/2);

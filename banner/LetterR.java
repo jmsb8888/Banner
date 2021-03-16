@@ -12,8 +12,9 @@ public class LetterR extends MyCharacter {
 	}
 	
 	/**
-	 * llama a los metodos que crean trazos horizontales en la linea 
-	 * @return 
+	 * llama a los metodos que crean trazos horizontales en la primera linea y en la mitad
+	 * asi mismo llama los metodos para crear trazos verticales en los extremos y un metodo diagonal desde la mitad hasta el final
+	 * @return la matriz llena formando la letra R
 	 */
 	@Override
 	public char[][] generate() {

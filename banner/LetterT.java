@@ -6,8 +6,8 @@
 package banner;
 
 /**
- *crea la letra H
- * @author uptc
+ * crea la letra T en una matrz
+ * @author grupo 3
  */
 public class LetterT extends MyCharacter {
 
