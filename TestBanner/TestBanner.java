@@ -30,7 +30,38 @@ public class TestBanner {
             System.out.println("");
         } System.out.println("");
     }
+        }/**
+    public void showMatrizzz(Matrix[] matrix) {
+        for (int i = 0; i < matrix.length ; i++) {
+            char[][] aux = matrix[i].getCharacterI();
+            for (int k = 0; k < matrix[i].getCharacterI().length; k++) {
+                for (int j = 0; j < matrix[i].getCharacterI()[i].length; j++) {
+                    for (int l = 0; l < matrix.length; l++) {
+                        System.out.print((matrix[k].getCharacterI()[l][j]));
+
+                    } System.out.print("              ");
+                   // System.out.print(matrix[i].getCharacterI()[k][j]);
+                }
+                System.out.println("");
+            } //System.out.println("");
         }
+    }*/
+   /** public void showMatrizzz(Matrix[] matrix) {
+            for (int k = 0; k < matrix.length; k++) {
+                for (int i = 0; i < matrix[k].getCharacterI().length; i++) {
+
+                    for (int j = 0; j < matrix[k].getCharacterI()[k].length; j++) {
+                        for (int l = 0; l < matrix.length; l++) {
+                            System.out.print((matrix[k].getCharacterI()[l][j]));
+
+                        }
+                        System.out.print("");
+                        // System.out.print(matrix[i].getCharacterI()[k][j]);
+                    }
+                    System.out.println("");
+                } //System.out.println("");
+            }
+    }*/
 /**      public static void prueba(Matrix[] matrix)    {
           for (int i = 0; i <matrix.length ; i++) {
               char[][] aux = matrix[i].getCharacterI();
@@ -156,6 +187,7 @@ for (int j = 0, k = 0; j < Matriz_A.length ||  < Matriz_B.length; j++, ++) {
         System.out.println("");
 
         tb.showMatrizz(new Banner("HOLA").matrix(new Size(8,8), '*'));
+        //tb.showMatrizzz(new Banner("HX").matrix(new Size(9,9), '*'));
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
     }
 }

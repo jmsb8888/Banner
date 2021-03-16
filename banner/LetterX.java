@@ -8,7 +8,7 @@ public class LetterX extends MyCharacter {
 	
 	public char[][] generate() {
 		new DiagonalStroke(area,symbol).generate(0);
-		new TransversalStroke(area,symbol).generate(8);
+		new TransversalStroke(area,symbol).generate(area[0].length-1);
 		return area;
 	}
 
