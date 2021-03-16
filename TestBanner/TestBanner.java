@@ -31,6 +31,50 @@ public class TestBanner {
         } System.out.println("");
     }
         }
+/**      public static void prueba(Matrix[] matrix)    {
+          for (int i = 0; i <matrix.length ; i++) {
+              char[][] aux = matrix[i].getCharacterI();
+
+    int colCountMatrizA = aux[0].length;
+
+for (int j = 0, k = 0; j < Matriz_A.length ||  < Matriz_B.length; j++, ++) {
+
+        // Si no se han pintado todas las filas de la matriz A
+        if (j < Matriz_A.length) {
+            System.out.print("|");
+
+            for (int f = 0; f < Matriz_A[j].length; f++) {
+                System.out.print(Matriz_A[j][f]);
+
+                if (f != Matriz_A[j].length - 1) {
+                    System.out.print("\t");
+                }
+            }
+
+            System.out.print("|");
+        } else {
+            // Si ya se pintaron todas las filas e la matriz A
+            // Esto lo hago para que la matriz B siempre quede alineada en caso de la matriz A tenga menos filas
+            for (int i = 0; i < colCountMatrizA - 1; i++) {
+                System.out.print("\t");
+            }
+        }
+
+        // Si no se han pintado todas las filas de la matriz A
+        if ( < Matriz_B.length) {
+            System.out.print("\t\t|");
+
+            for (int y2 = 0; y2 < Matriz_B[].length; y2++) {
+                System.out.print(Matriz_B[][y2]);
+
+                if (y2 != Matriz_B[].length - 1) {
+                    System.out.print("\t");
+                }
+            }
+
+            System.out.println("|");
+        }
+    }*/
 
     public static void main(String[] args) {
         TestBanner tb = new TestBanner();
@@ -111,7 +155,7 @@ public class TestBanner {
         tb.showMatriz(new Number9('9', new Size(9, 9), '*').generate());
         System.out.println("");
 
-        tb.showMatrizz(new Banner("AB").matrix());
+        tb.showMatrizz(new Banner("HOLA").matrix(new Size(8,8), '*'));
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
     }
 }

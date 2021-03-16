@@ -18,7 +18,7 @@ public class Size {
      * @param width ancho de la matriz
      * @param height alto de la matriz
      */
-    public Size(int width, int height) {
+    public Size(int height, int width) {
         this.width = width;
         this.height = height;
     }

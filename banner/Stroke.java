@@ -12,7 +12,6 @@ package banner;
 public abstract class Stroke {
     protected char[][] area;
     protected char symbol;
-    protected Size size;
 
     /**
      * constructor
