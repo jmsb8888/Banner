@@ -23,8 +23,8 @@ public class LetterG extends MyCharacter {
     public char[][] generate() {
         new HorizontalStroke(area,symbol).generate(0).generate(area.length/2).generate(area.length-1);
         new VerticalStroke(area,symbol).generate(0).generate(area[0].length-1);
-        new EmptyPoints(area,' ' ).generate3((area.length/2),1, (area[area.length/2].length/2-1));
-        new EmptyPoints(area, ' ').generate4(1, area[0].length-1, (area.length/2)-1);
+        new EmptyPoints(area,' ' ).generateHorizontal((area.length/2),1, (area[area.length/2].length/2-1));
+        new EmptyPoints(area, ' ').generateVertical(1, area[0].length-1, (area.length/2)-1);
         return area;
     }
     

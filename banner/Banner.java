@@ -28,12 +28,15 @@ public class Banner {
 	 * @return
 	 */
 	public Matrix[] matrix (Size size, char symbol) {
-		char characterr = ' ';
-		char[] characterAux = message.toCharArray();
+		char character = ' ';
+		char[] characterAux = message.toCharArray();		
 		Matrix[] matrix = new Matrix[characterAux.length];
 		for (int i = 0; i < characterAux.length; i++) {
-			characterr = characterAux[i];
-			switch (characterr) {
+			character = characterAux[i];
+			switch (character) {
+			case ' ':
+				matrix[i]= new Matrix(new Space(' ', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+				break;
 			case 'A':
 				matrix[i] = new Matrix((new LetterA('A', new Size(size.getHeight(), size.getWidth()), symbol).generate()));
 				break;
@@ -144,6 +147,17 @@ public class Banner {
 				break;
 			case '0':
 				matrix[i] = new Matrix(new Number0('0', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+				break;
+			case '-':
+				matrix[i] = new Matrix(new Screenplay('0', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+				break;
+			case '_':
+				matrix[i] = new Matrix(new Underscore('0', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+				break;
+			case '/':
+				matrix[i] = new Matrix(new Slash('0', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+				break;
+				
 				default:
 					System.out.println("Existe un caracter invalido en el mensage");
 					System.exit(0);

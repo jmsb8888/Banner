@@ -23,30 +23,19 @@ public class EmptyPoints extends Stroke{
         area[pos][0] = symbol;
         return this;
     }
-        public EmptyPoints generate2(int pos, int pos2){
-            area[pos][pos2]=symbol;
-            return this;
-        }
-    public EmptyPoints generate3(int pos, int pos2, int pos3){
-        for (int i = pos2; i <= pos3; i++) {
-            area[pos][i]=symbol;
+    
+    public EmptyPoints generateHorizontal(int row, int columnInitial, int columnFinal){
+        for (int i = columnInitial; i <= columnFinal; i++) {
+            area[row][i]=symbol;
         }
         return this;
     }
-    public EmptyPoints generate4(int pos, int pos2, int pos3){
-        for (int i = pos; i <= pos3; i++) {
-            area[i][pos2]=symbol;
+    public EmptyPoints generateVertical(int rowInitial, int column, int rowFinal){
+        for (int i = rowInitial; i <= rowFinal; i++) {
+            area[i][column]=symbol;
         }
         return this;
     }
-    public EmptyPoints generate5(int pos){
-        for (int i = pos; i < area.length; i++) {
-            for (int j = pos; j <area[0].length; j++) {
-                if(i==j)
-                    area[i][j] = symbol;
-            }
-
-        }
-        return this;
-    }
+    
+    
 }

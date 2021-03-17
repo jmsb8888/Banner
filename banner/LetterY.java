@@ -11,7 +11,7 @@ public class LetterY extends MyCharacter {
 		new DiagonalStroke(area, ' ').generate(area.length/2,area[0].length/2);
 		new TransversalStroke(area,symbol).generate((area.length/2)-1,((area[0].length/2)+1),0);
 		new VerticalStroke(area,symbol).generate(area.length/2);
-		new EmptyPoints(area, ' ').generate4(0,area[0].length/2,(area.length/2)-1);
+		new EmptyPoints(area, ' ').generateVertical(0,area[0].length/2,(area.length/2)-1);
 		return area;
 	}
 

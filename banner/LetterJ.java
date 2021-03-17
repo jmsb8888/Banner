@@ -23,7 +23,7 @@ public class LetterJ extends MyCharacter {
     public char[][] generate() {
         new HorizontalStroke(area,symbol).generate(0).generate(area.length-1);
         new VerticalStroke(area,symbol).generate(area[0].length/2);
-        new EmptyPoints(area,' ').generate3(area.length-1, area[0].length/2+1, area[0].length-1);
+        new EmptyPoints(area,' ').generateHorizontal(area.length-1, area[0].length/2+1, area[0].length-1);
         return area;
     }
     
