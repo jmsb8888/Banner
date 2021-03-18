@@ -7,7 +7,7 @@ package banner;
 
 /**
  *esta clase determina las propiedas de los diferentes trazos
- * @author uptc
+ * @author grupo 3
  */
 public abstract class Stroke {
     protected char[][] area;

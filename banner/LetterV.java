@@ -1,6 +1,7 @@
 package banner;
 
 /**
+ * crea la letra V en una matriz
  * @author grupo 3
  *
  */
@@ -11,7 +12,8 @@ public class LetterV extends MyCharacter {
 	}
 	
 	/**
-	 * 
+	 * llama a los metodos que crean trazos verticales en los extremos, llama a los metodos que crean trazos diagonales del centro inferior a los medios extremos
+	 * se llama a los metodos que borran lineas para recortar los trazos verticales
 	 * @return la matriz llena formando la letra V
 	 */
 	@Override

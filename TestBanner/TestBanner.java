@@ -133,9 +133,8 @@ public class TestBanner {
         System.out.println("");
         tb.showMatriz(new Slash('/', new Size(9, 9), '*').generate());
         System.out.println("");
-
         //tb.showMatrizz(new Banner("HOLA").matrix(new Size(8,8), '*'));
-        tb.showMatrixHorizontal(new Banner("HOLA-MUNDO/_").matrix(new Size(9,9), '*'));
+        tb.showMatrixHorizontal(new Banner("HOLA MUNDO").matrix(new Size(9,9), '*'));
         //tb.showMatriz(new Banner("Hola Mundo").generate(new Size(8,8), '*'));
     }
 }

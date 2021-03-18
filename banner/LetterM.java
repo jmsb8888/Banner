@@ -6,7 +6,6 @@ package banner;
  *
  */
 public class LetterM extends MyCharacter {
-		private char[][] prueba;
 	public LetterM(char value, Size size, char symbol) {
 		super(value, size,symbol);
 	}

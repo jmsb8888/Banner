@@ -6,7 +6,7 @@
 package banner;
 
 /**
- * crea el carcter '-'en una matriz
+ * crea el carcter '-' en una matriz
  * @author grupo 3
  */
 public class Screenplay extends MyCharacter {

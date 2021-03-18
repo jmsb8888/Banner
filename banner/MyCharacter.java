@@ -7,7 +7,7 @@ package banner;
 
 /**
  *da los parametros que llevara cada caracter a construir
- * @author uptc
+ * @author grupo 3
  */
 public abstract class MyCharacter {
     private char value;

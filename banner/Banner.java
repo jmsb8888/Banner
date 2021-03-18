@@ -7,7 +7,7 @@ package banner;
 //import  banner.MyCharacter;
 
 /**
- *
+ * 
  * @author grupo 3
  */
 public class Banner {
@@ -79,8 +79,8 @@ public class Banner {
 			case 'N':
 				matrix[i] = new Matrix(new LetterN('N', new Size(size.getHeight(), size.getWidth()), symbol).generate());
 				break;
-			case '�':
-				matrix[i] = new Matrix(new LetterNmasUno('�', new Size(size.getHeight(), size.getWidth()), symbol).generate());
+			case '~':
+				matrix[i] = new Matrix(new LetterNmasUno('~', new Size(size.getHeight(), size.getWidth()), symbol).generate());
 				break;
 			case 'O':
 				matrix[i] = new Matrix(new LetterO('O', new Size(size.getHeight(), size.getWidth()), symbol).generate());

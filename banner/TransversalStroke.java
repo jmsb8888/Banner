@@ -4,7 +4,7 @@
 package banner;
 
 /**crea trazos diagonales
- * @author Usuario
+ * @author grupo 3
  *
  */
 public class TransversalStroke extends Stroke{

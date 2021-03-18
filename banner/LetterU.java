@@ -17,7 +17,7 @@ public class LetterU extends MyCharacter{
 	/**
 	 * llama a los metodos que crean los trazos verticales de los extremos
 	 * llama al metodo que genera un trazo horizontal al final de la matriz
-	 * @return
+	 * @return la matriz llena formando la letra U
 	 */
 	@Override
 	public char[][] generate() {

@@ -6,7 +6,7 @@
 package banner;
 
 /**
- * crea la letra A en una matriz
+ * crea el caracter ' ' en una matriz
  * @author grupo 3
  */
 public class Space extends MyCharacter {
@@ -15,8 +15,8 @@ public class Space extends MyCharacter {
         super(value, size,symbol);
     }
     /**
-     * llama a los metodos que crean el trazo horizontal y vertical en dos ocaciones e indica las posiciones en las cuales estos deben hacer el llenado de la matris
-     * @return la matriz llena formando la letra A
+     * retorna la matriz sin hacer trazos
+     * @return la matriz llena con el caracter ' '
      */
     @Override
     public char[][] generate() {

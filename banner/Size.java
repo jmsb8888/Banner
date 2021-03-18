@@ -7,7 +7,7 @@ package banner;
 
 /**
  *la clase contiene los objetos que dan el valor al ancho y alto de la columna
- * @author uptc
+ * @author grupo 3
  */
 public class Size {
     private int  width;

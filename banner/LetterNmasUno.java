@@ -1,7 +1,7 @@
 package banner;
 
 /**
- * crea la letra � en una matriz
+ * crea la letra "N~" en una matriz
  * @author grupo 3
  *
  */
