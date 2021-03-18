@@ -12,7 +12,7 @@ package banner;
  */
 public class Banner {
 	private String message;
-
+//
 	/**
 	 * constructor
 	 * @param message mensage a dibujar
