@@ -3,6 +3,7 @@ package banner;
 /**
  * crea la letra V en una matriz
  * @author grupo 3
+ * 
  */
 public class LetterV extends MyCharacter {
 
